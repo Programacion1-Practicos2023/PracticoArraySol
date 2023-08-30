@@ -1,7 +1,7 @@
 clear
-cd src
+cd PracticoArraySol
 printf "Compiling..."
-javac -d bin consola/*.java logica/*.java
+javac -d bin src/consola/*.java src/logica/*.java
 if [ $? == 0 ] 
 then
     clear
