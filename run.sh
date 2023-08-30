@@ -1,7 +1,7 @@
 clear
-cd PlantillaProyecto
+cd src
 printf "Compiling..."
-javac -d bin src/consola/*.java src/logica/*.java
+javac -d bin consola/*.java logica/*.java
 if [ $? == 0 ] 
 then
     clear
@@ -9,3 +9,5 @@ then
 else
     printf "\n\n\nError - Exit code $?"
 fi
+
+
