@@ -9,8 +9,19 @@ public class Programa {
 	
 	public void iniciar() {
 				
-			System.out.println("Hola");
+		System.out.println("Hola");
+						
+		//1
 		
+		//2
+
+   		 //3
+
+   		 //4
+
+   		 //5
+
+   		 //6
 		
 	} 
   
