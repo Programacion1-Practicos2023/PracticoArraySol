@@ -37,8 +37,8 @@ public class Programa {
 		for (int i = 0; i < num4.length; i++) {
 			num4[i] = entrada.nextInt();
 		}
-		int resultMay = cargarMayor(num4);
-		int resultMen = cargarMenor(num4);
+		int resultMay = elMayor(num4);
+		int resultMen = elMenor(num4);
 		System.out.println("Mayor: " + resultMay);
 		System.out.println("Menor: " + resultMen);
 
@@ -94,7 +94,7 @@ public class Programa {
 		
 }
 
-  int cargarMayor (int a[]) {
+  int elMayor (int a[]) {
 		int mayor = a[0];
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] > mayor)
@@ -103,7 +103,7 @@ public class Programa {
 		return(mayor);
 	}
 	
-	int cargarMenor (int a[]) {
+	int elMenor (int a[]) {
 		int menor = a[0];
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] < menor)
