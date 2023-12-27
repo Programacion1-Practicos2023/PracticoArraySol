@@ -1,4 +1,5 @@
 # Práctico Array 
+## Observación: En todos los ejercicios, deberá organizar el código usando métodos específicos
 
 1 - Codifique un programa para que declare un array de enteros de 20 lugares y lo muestre inicializado en 1 para todas sus casillas.  
 
